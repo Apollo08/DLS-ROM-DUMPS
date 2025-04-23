@@ -1,5 +1,4 @@
-# DLS-ROM-DUMPS
-ROM DUMP COLLECTION FOR DLS
+# ROM DUMP COLLECTION FOR DLS
 <br/>
 Please Add the ROM names to your project description.json file in this fashion
 <br/>
@@ -7,6 +6,7 @@ Please Add the ROM names to your project description.json file in this fashion
 <br/>
 replace 'CHIPNAME' with the chip you put in and add a ',' if you added it in the middle of your list
 Then make a bit at the bottom of the file before the closing brackets
+<br/>
       ```"Chips":["CHIPNAME","SECOND CHIPNAME IF YOU ADDED A SECOND"],
       "IsToggledOpen":true,
       "Name":"ROMS" ```
