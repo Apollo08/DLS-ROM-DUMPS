@@ -1,4 +1,4 @@
-# ROM DUMP COLLECTION FOR DLS
+# ROM DUMP REPO FOR DLS
 Please Add the ROM names to your project description.json file in this fashion
 <br/>
  ```"AllCustomChipNames":["CHIPNAME","SECOND CHIPNAME IF YOU ADDED A SECOND"],```
