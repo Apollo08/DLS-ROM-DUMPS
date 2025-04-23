@@ -1,0 +1,132 @@
+{
+  "Name": "Basic CPU CMD ROM",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.475,
+    "y": 1.0
+  },
+  "Colour": {
+    "r": 0.2509804,
+    "g": 0.349019617,
+    "b": 0.5019608,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"ADDR",
+      "ID":1195342730,
+      "Position":{
+        "x":-1.75,
+        "y":-0.4375
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"B",
+      "ID":400655110,
+      "Position":{
+        "x":2.625,
+        "y":-0.1875
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"A",
+      "ID":456926422,
+      "Position":{
+        "x":2.625,
+        "y":-0.6875
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"ROM 256×16",
+      "ID":831858140,
+      "Label":"",
+      "Position":{
+        "x":0.385,
+        "y":-0.4375
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1},{"PinColour":0,"PinID":2}],
+      "InternalData":[0,257,514,771,1028,1285,1542,1799,2056,2313,2570,2830,3087,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      "Name":"#",
+      "ID":1115095593,
+      "Label":"Bottom is Command",
+      "Position":{
+        "x":0.375,
+        "y":0.625
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    },
+    {
+      "Name":"#",
+      "ID":1552645787,
+      "Label":"Top is Const ADDR",
+      "Position":{
+        "x":0.375,
+        "y":1.125
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":1,
+        "PinOwnerID":831858140
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":400655110
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":831858140
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":456926422
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1195342730
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":831858140
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[]
+}
